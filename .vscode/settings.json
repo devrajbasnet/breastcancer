@@ -1,0 +1,7 @@
+{
+    "git.autorefresh": true,
+    "git.branchRandomName.enable": false,
+    "git.confirmEmptyCommits": true,
+    "git.enabled": false,
+    "workbench.colorTheme": "Visual Studio Dark"
+}

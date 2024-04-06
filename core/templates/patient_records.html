@@ -1,0 +1,20 @@
+<h1>Patient Data</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for data in all_data %}
+      <tr>
+        <td>{{ data.id }}</td>
+        <td>{{ data.name }}</td>
+        <td><a href="{% url 'predict_diagnosis' data.id %}">View Result</a></td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>

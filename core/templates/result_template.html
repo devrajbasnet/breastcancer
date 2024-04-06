@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Breast Cancer Detection Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .prediction-box {
+            border: 2px solid #4285f4;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #f9f9f9;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Breast Cancer Detection Result</h1>
+
+    <div class="prediction-box">
+        <h2>Predicted Diagnosis:</h2>
+        <p>{{ predicted_diagnosis }}</p>
+    </div>
+
+</body>
+</html>
